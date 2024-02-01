@@ -11,3 +11,25 @@
      scroll-behavior: smooth;
 } */
 
+article:hover ._heading,
+article:hover ._card_info,
+article:hover ._icon {
+     color: #050a06;
+     transition-delay: 300ms;
+}
+
+article:hover ._icon_div {
+     border-color: #050a06;
+     transition-delay: 300ms;
+}
+
+article:hover ._index {
+     color: #01baab;
+     transition-delay: 300ms;
+}
+
+article:hover ._divider {
+     background-color: #050a06 !important;
+     transition-delay: 300ms;
+}
+
