@@ -60,13 +60,13 @@ const Header = () => {
         </nav>
       </div>
 
-      <section className={`p-4 text-center`}>
+      <section className={`p-8 text-center`}>
         <div className={`mb-10`}>
           <h1 className={`text-[#d8d8d8] font-[500] leading-[42px] text-[1.2rem] mb-2 tracking-[2px]`}>Hi, I am <span className={`text-[1.4rem] text-[#02dac5]`}>Gloria Ubah</span></h1>
-        <p className={`text-[#d8d8d8] font-[400] leading-[32px] text-[1rem] mb-2`}>A seasoned <span className={` text-[#02dac5]`}>Frontend Developer</span> transforming ideas into stunning digital experiences. Let&apos;s create something amazing!</p>
+        <p className={`text-[#d8d8d8] md:w-[500px] mx-auto font-[400] leading-[32px] text-[1rem] mb-4`}>A seasoned <span className={` text-[#02dac5]`}>Frontend Developer</span> transforming ideas into stunning digital experiences. Let&apos;s create something amazing!</p>
         </div>
         
-        <div className={`w-[75%] md:w-[30%] mx-auto my-10 flex justify-between items-center`}>
+        <div className={`max-w-[246px] mx-auto my-10 flex justify-between items-center`}>
           <button className={`w-[40px] h-[40px] rounded-full bg-[#d8d8d8] flex justify-center items-center hover:bg-[#02dac5] hover:transition-all hover:delay-300 hover:duration-300`}>
             <Link href="" className={`hidden`}>Github</Link>
             <FaGithub />
